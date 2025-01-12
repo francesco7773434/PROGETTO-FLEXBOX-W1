@@ -1,0 +1,451 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  
+  
+ 
+  
+}
+
+
+
+.nav a{
+    display: inline;
+    margin: 1rem;
+    cursor: pointer;
+}
+.nav button{
+  cursor: pointer;
+
+}
+.header{
+    display: flex;
+    background-color:  #ffc017;
+    padding: 2rem;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+}
+
+.logo{
+    margin-left: 4rem;
+}
+.container1{
+    background-color: #ffc017;
+    border-bottom: solid 1px black;
+    width: 100%;
+    
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.emme{
+    min-width:  500px;
+    min-height:  500px;
+    display: flex;
+    
+    
+
+}
+.main{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.main h1{
+   font-size: 80px;
+   margin: 2rem;
+   margin-top: 20%;
+}
+.main p{
+    font-size: 25px;
+   margin: 2rem;
+   
+}
+.main button{
+    margin: 2rem;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.nav button{
+    
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+}
+.titolo2{
+    margin: 3rem;
+    padding: 0 36px;
+  
+}
+.contenitore{
+    display: flex;
+    
+    
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(184, 179, 179);
+    flex-wrap: wrap;
+}
+.sottocontenitore {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+   
+    width: calc(100% - 40px); 
+    margin: 0 auto; 
+    padding: 0 60px; 
+    height: auto;
+
+  }
+  
+  .box1 {
+    flex-grow: 0; 
+    width: 30%; 
+    height: 150px; 
+   
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .card{
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+  }
+  .card h4{
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 1rem;
+  }
+  .card span{
+    margin-top: 2rem;
+  }
+  
+ 
+ 
+  .numero p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #c0c0c0;
+  }
+  .card img{
+    border-radius: 50%;
+  }
+  .card1{
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+  }
+  .card1 h4{
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 1rem;
+  }
+  .card1 span{
+    margin-top: 2rem;
+  }
+ 
+  .card1 img{
+    border-radius: 10%;
+   
+  }
+  .card1 p{
+    margin-top: 1rem;
+    color: rgb(221, 218, 218);
+  }
+  .card p{
+    margin-top: 1rem;
+    color: rgb(221, 218, 218);
+  }
+  
+  .numero{
+    margin-top: 1rem;
+    
+  }
+  
+  .supercontenitore{
+    min-height: 800px;
+    
+    display: flex;
+  }
+  .destra{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+  }
+  .sinistra{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    min-width: 60%;
+    flex-direction: column;
+    
+    
+  }
+  .scatola1{
+    width: 100%;
+    height: 150px;
+    
+    margin: 4rem;
+    margin-right: 0;
+    display: flex;
+    
+    
+  }
+  .photo{
+    width: 100%;
+    height: auto;
+    
+  }
+  .contenuto{
+    width: 100%;
+    height: auto;
+    
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .photo img{
+    width: 75%;
+    height: 100%;
+  }
+  .name{
+    height: 100%;
+    width:  auto;
+    
+    display: flex;
+  }
+  .descrizione{
+    height: 100%;
+    width:  auto;
+    
+    min-height: 60%;
+    
+
+  }
+  .descrizione p{
+    color: #858383;
+  }
+  .tempo p{
+    color: #858383;
+
+  }
+  .tempo button{
+    color: #858383;
+
+  }
+  .descrizione h3{
+    margin-top: 3rem;
+
+  }
+  .time{
+    height: 100%;
+    width:  auto;
+    margin-top: 4rem;
+    
+    
+    display: flex;
+
+  }
+  .logostr{
+    width: 100%;
+    height: auto;
+    
+    width: 20%;
+    display: flex;
+    
+  }
+  .string{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+  }
+  .logostr img{
+    border-radius: 50%;
+    border: solid 1px rgb(134, 130, 130);
+    
+    
+  }
+  .string h5{
+   font-weight: bold;
+  }
+  .descrizione{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .descrizione h3{
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .tempo{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+    
+
+  }
+  .icon{
+    width: 100%;
+    height: auto;
+    
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+
+  }
+  .tempo button{
+    margin-left: 1rem;
+    border: none;
+    border-radius: 20px;
+    padding: 0.3rem;
+    margin-right: 1rem;
+  }
+  .tempo:first-child p{
+    margin-right: 1rem;
+  }
+  .destra{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+   
+  }
+  .boxDestra1{
+    width: 100%;
+    height: 20%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .boxDestra2{
+    width: 100%;
+    height: 70%;
+    
+    height: 10%;
+    display: flex;
+   
+  }
+  .title3{
+    width: 100%;
+    height: 70%;
+    
+    height: 10%;
+
+  }
+  .content3{
+    
+    display: flex;
+  flex-wrap: wrap; /* Permette di andare a capo quando lo spazio finisce */
+  gap: 10px;       /* Spaziatura tra i contenitori (opzionale) */
+  justify-content: center;
+  margin-right: 2rem;
+   
+    
+    
+
+  }
+  .scatole{
+    width:100%;
+    height: auto;
+    border: solid 1px rgb(228, 220, 220);
+    flex: 0 1 calc(33.333% - 10px); /* Ogni box occupa un terzo della riga meno lo spazio tra gli elementi */
+    height: 35px; /* Altezza fissa per i contenitori */
+    background-color: #ffffff;
+    color: rgb(139, 136, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;  
+   
+  }
+  .title3 h3{
+    font-weight: bold;
+  }
+  .content4{
+    
+    
+    display: flex;
+    flex-direction: column; /* Dispone le righe verticalmente */
+    gap: 20px; /* Spaziatura tra le righe */
+    padding-top: 2rem;
+   
+  }
+  .parole{
+    width:100%;
+    height: auto;
+    
+    flex: 0 1 calc(33.333% - 10px); /* Ogni box occupa un terzo della riga meno lo spazio tra gli elementi */
+    height: 35px; /* Altezza fissa per i contenitori */
+    
+    color: rgb(139, 136, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;  
+
+  }
+  .row {
+    display: flex;
+    gap: 10px; /* Spaziatura tra i contenitori nella riga */
+  }
+  
+  .row-6 .box {
+    flex: 0 1 calc(16.666% - 10px); /* Ogni contenitore occupa 1/6 della larghezza meno il gap */
+  }
+  
+  .row-3 .box {
+    flex: 0 1 calc(33.333% - 10px); /* Ogni contenitore occupa 1/3 della larghezza meno il gap */
+  }
+    hr{
+      height: 2px;
+     
+      
+      
+     margin-top: 2rem;
+     width: 80%; border: 1px solid rgb(206, 198, 198);
+     
+      
+    }
+    
+    
+
+  
+  
+  
